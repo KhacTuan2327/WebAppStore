@@ -11,20 +11,20 @@ namespace WebAppStore.Controllers
         // GET: Base
         protected override void OnActionExecuted(ActionExecutedContext filterContext)
         {
-            var session = (dynamic)Session["Admin_Session"];
+            var session = (dynamic)Session["Role_Id"];
             if (session == null)
             {
                 filterContext.Result = new RedirectToRouteResult(new System.Web.Routing.RouteValueDictionary(new { controller = "Login", action = "Index",Area="" }));
             }
             else
             {
-                if (session.Role == "A")
+                if (session == 1)
                 {
                     base.OnActionExecuted(filterContext);
                 }
                 else
                 {
-                    filterContext.Result = new RedirectToRouteResult(new System.Web.Routing.RouteValueDictionary(new { controller = "Login", action = "Index" }));
+                    filterContext.Result = new RedirectToRouteResult(new System.Web.Routing.RouteValueDictionary(new { controller = "Login", action = "Index",Area="" }));
                 }
             }
 

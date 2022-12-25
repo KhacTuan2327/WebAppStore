@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using WebAppStore.Controllers;
 namespace WebAppStore.Areas.Admin.Controllers
 {
-    public class AdminHomeController : Controller
+    public class AdminHomeController : BaseController
     {
         StoreDbContext _context = new StoreDbContext();
         // GET: Admin/AdminHome

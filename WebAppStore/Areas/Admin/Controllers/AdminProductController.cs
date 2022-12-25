@@ -5,10 +5,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Models;
-
+using WebAppStore.Controllers;
 namespace WebAppStore.Areas.Admin.Controllers
 {
-    public class AdminProductController : Controller
+    public class AdminProductController : BaseController
     {
         StoreDbContext db = new StoreDbContext();
         // GET: Admin/AdminProduct

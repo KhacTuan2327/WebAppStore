@@ -5,10 +5,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Models;
-
+using WebAppStore.Controllers;
 namespace WebAppStore.Areas.Admin.Controllers
 {
-    public class StaffController : Controller
+    public class StaffController : BaseController
     {
         // GET: Admin/Staff
         public ActionResult Staff()

@@ -26,14 +26,16 @@ namespace WebAppStore.Controllers
                     if(userInfo.Role_Id == 1)
                     {
                         Session.Add("userName", userInfo.Username.ToString());
+                        Session.Add("Role_Id", userInfo.Role_Id);
                         Session.Timeout = 60;
-                        return RedirectToAction("Index", "Home");
+                        return Redirect("/Admin/AdminHome");
                     }
                     else if(userInfo.Role_Id == 2)
                     {
                         Session.Add("userName", userInfo.Username.ToString());
+                        Session.Add("Role_Id", userInfo.Role_Id);
                         Session.Timeout = 60;
-                        return RedirectToAction("Product", "Product");
+                        return RedirectToAction("Index", "Home");
                     }
                 }
                 return View("Index");

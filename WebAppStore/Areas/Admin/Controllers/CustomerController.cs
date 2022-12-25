@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Models;
-
+using WebAppStore.Controllers;
 namespace WebAppStore.Areas.Admin.Controllers
 {
-    public class CustomerController : Controller
+    public class CustomerController : BaseController
     {
         // GET: Admin/Customer
         public ActionResult Customer()
