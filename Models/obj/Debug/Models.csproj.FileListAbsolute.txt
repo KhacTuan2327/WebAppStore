@@ -1,0 +1,36 @@
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\Models.dll.config
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\Models.dll
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\Models.pdb
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\EntityFramework.dll
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\EntityFramework.xml
+C:\Users\Dell service\source\repos\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell service\source\repos\WebAppStore\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\Dell service\source\repos\WebAppStore\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell service\source\repos\WebAppStore\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Dell service\source\repos\WebAppStore\Models\obj\Debug\Models.dll
+C:\Users\Dell service\source\repos\WebAppStore\Models\obj\Debug\Models.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\Models.dll.config
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\Models.dll
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\Models.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\WebAppStore\Models\obj\Debug\Models.dll
+C:\Users\ADMIN\Desktop\WebAppStore\Models\obj\Debug\Models.pdb
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\Models.dll.config
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\Models.dll
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\Models.pdb
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.dll
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.xml
+C:\Users\Dell service\Desktop\WebAppStore\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell service\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell service\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.CopyComplete
+C:\Users\Dell service\Desktop\WebAppStore\Models\obj\Debug\Models.dll
+C:\Users\Dell service\Desktop\WebAppStore\Models\obj\Debug\Models.pdb
+C:\Users\Dell service\Desktop\WebAppStore\Models\obj\Debug\Models.csproj.AssemblyReference.cache

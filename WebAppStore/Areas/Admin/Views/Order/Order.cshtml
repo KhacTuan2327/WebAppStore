@@ -1,0 +1,118 @@
+﻿@using Models
+@{
+    ViewBag.Title = "Order";
+    Layout = "~/Areas/Admin/Views/Shared/Layout_Admin.cshtml";
+}
+
+<head>
+    <title>Đơn hàng | Quản trị Admin</title>
+</head>
+<body>
+    <main class="app-content">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb side">
+                <li class="breadcrumb-item active"><a href="#"><b>Đơn hàng</b></a></li>
+            </ul>
+            <div id="clock"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="tile-body">
+                        <div class="row element-button">
+                            <table class="table table-hover table-bordered" id="sampleTable">
+                                <thead>
+                                    <tr>
+                                        <th width="15">ID</th>
+                                        <th style="text-align:center">Tên khách hàng</th>
+                                        <th width="150" style="text-align:center">Địa chỉ</th>
+                                        <th style="text-align:center">Tên sản phẩm</th>
+                                        <th style="text-align:center">Giá tiền</th>
+                                        <th style="text-align:center">Số lượng</th>
+                                        <th style="text-align:center">Tổng tiền</th>
+                                        <th style="text-align:center">Tình trạng</th>
+                                        <th style="text-align:center">Ghi chú</th>
+                                        <th style="text-align:center">Tính năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @using (var model = new StoreDbContext())
+                                    {
+                                        var list = (from dh in model.Order_Detail
+                                                    join kh in model.Orders on dh.Order_Id equals kh.Id
+                                                    select new
+                                                    {
+                                                        dh.Id,
+                                                        kh.Fullname,
+                                                        kh.Address,
+                                                        dh.Title,
+                                                        dh.Price,
+                                                        dh.Number,
+                                                        dh.TotalMoney,
+                                                        kh.Status
+                                                    }).ToList();
+                                        foreach (var item in list)
+                                        {
+
+                                            <tr>
+                                                <td>@item.Id</td>
+                                                <td>@item.Fullname</td>
+                                                <td>@item.Address</td>
+                                                <td>@item.Title</td>
+                                                <td>@item.Price VNĐ </td>
+                                                <td>@item.Number</td>
+                                                <td>@item.TotalMoney VNĐ</td>
+                                                @if (item.Status == 0)
+                                                {
+                                                    <td><span class="badge bg-warning">Đang giao hàng</span></td>
+                                                }
+                                                @if (item.Status == 1)
+                                                {
+                                                    <td><span class="badge bg-dark">Đã giao hàng</span></td>
+                                                }
+                                                <td></td>
+                                                <td class="table-td-center">
+                                                    <a class="btn btn-primary btn-sm edit" href="~/Admin/Order/UpdateOrder?id=@item.Id" title="Sửa">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a class="btn btn-primary btn-sm edit" href="~/Admin/Order/DeleteOrder?id=@item.Id" title="Xoa">
+                                                        <i class="fas fa-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="~/Areas/Admin/content/doc/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/popper.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="src/jquery.table2excel.js"></script>
+    <script src="~/Areas/Admin/content/js/main.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/plugins/pace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <script>
+
+        oTable = $('#sampleTable').dataTable();
+        $('#all').click(function (e) {
+            $('#sampleTable tbody :checkbox').prop('checked', $(this).is(':checked'));
+            e.stopImmediatePropagation();
+        });
+        //In dữ liệu
+        //Modal
+        $("#show-emp").on("click", function () {
+            $("#ModalUP").modal({ backdrop: false, keyboard: false })
+        });
+    </script>
+</body>
+

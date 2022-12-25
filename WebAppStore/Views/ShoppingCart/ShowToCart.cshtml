@@ -1,0 +1,152 @@
+﻿@model Models.Cart
+
+@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/LayoutUser.cshtml";
+
+
+}
+<div class="container">
+    <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+        <a href="index.html" class="stext-109 cl8 hov-cl1 trans-04">
+            Trang chủ
+            <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+        </a>
+
+        <span class="stext-109 cl4">
+            Giỏ hàng
+        </span>
+    </div>
+</div>
+
+
+<!-- Shoping Cart -->
+
+<form action="/GioHang/Update_Quantity_Cart" method="get">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-7 m-lr-auto m-b-50">
+                <div class="m-l-25 m-r--38 m-lr-0-xl">
+                    <div class="wrap-table-shopping-cart">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Kích thước</th>
+                                    <th>Màu sắc</th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Tổng</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @{ int i = 0;}
+                                @foreach (var item in Model.Items)
+                                {
+
+
+
+                                    <tr>
+                                        <td>
+                                            <img src="~/Content/images/Image/AllProduct/@item._shopping_product.Photo" width="100">
+                                            <p>@item._shopping_product.Title</p>
+                                        </td>
+                                        <td>@item._shopping_product.Size</td>
+                                        <td> @item._shopping_product.Color</td>
+                                        <td> @item._shopping_product.Price</td>
+                                        <td class="shoping__cart__quantity">
+                                            <input type="hidden" value="@item._shopping_product.Id" name="Ma[@i]" />
+                                            <input type="number" value="@item._shopping_quantity" name="SL[@i]" class="user-quantity">
+                                        </td>
+                                        <td>@(item._shopping_product.Price.Value * item._shopping_quantity) đ</td>
+                                        <td>
+                                            <a href="/ShoppingCart/RemoveCart/@item._shopping_product.Id"><img src="~/Content/images/rub.jpg" style="width: 20px;height:20px" /></a>
+                                        </td>
+                                    </tr>
+                                    i = i + 1;
+                                }
+
+
+
+
+                            </tbody>
+                            <tfoot>
+                            <td colspan="5">
+                                Tổng thanh toán :@Model.Total_Money() đ
+                            </td>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <a href="#call-info" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+                        Thanh toán
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</form>
+
+<!-- Info User -->
+<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
+    <div class="overlay-modal1 js-hide-modal1"></div>
+
+    <div class="container">
+        <div class="bg0 p-t-60 p-b-30 p-lr-15-lg how-pos3-parent">
+            <button class="how-pos3 hov3 trans-04 js-hide-modal1">
+                <img src="../../Content/images/icons/icon-close.png" alt="CLOSE">
+            </button>
+            <div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50 js-panel-info">
+                <h4 class="mtext-109 cl2 p-b-30" style="text-align:center">
+                    Thông tin nhận hàng
+                </h4>
+                @{ double ttskg = Model.Total_Money();}
+                @using (Html.BeginForm("CheckOut", "ShoppingCart"))
+                {
+                    <input type="hidden" name="tongtien" value="@ttskg" />
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="name" placeholder="Họ và tên">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-user-27.png" alt="ICON">
+                    </div>
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="Email" placeholder="Email của bạn">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-composing-mail-27.png" alt="ICON">
+                    </div>
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="sdt" placeholder="Số điện thoại">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-iphone-14-pro-27.png" alt="ICON">
+                    </div>
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="tinh" placeholder="Tỉnh/Thành phố">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-home-page-27.png" alt="ICON">
+                    </div>
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="huyen" placeholder="Huyện/Quận">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-home-page-27.png" alt="ICON">
+                    </div>
+                    <div class="bor8 m-b-20 how-pos4-parent">
+                        <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="xa" placeholder="Xã/Phường">
+                        <img class="how-pos4 pointer-none" src="../../Content/images/icons/icons8-home-page-27.png" alt="ICON">
+                    </div>
+
+                    <div class="bor8 m-b-30">
+                        <textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="msg" placeholder="Ghi chú ..."></textarea>
+                    </div>
+
+                    <div class="container-pay">
+                        <button class="btn1-pay btn-pay">
+                            Thanh toán khi nhận hàng
+                        </button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

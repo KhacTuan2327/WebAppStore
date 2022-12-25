@@ -1,0 +1,97 @@
+﻿@using Models
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Areas/Admin/Views/Shared/Layout_Admin.cshtml";
+}
+
+
+<head>
+    <title>Khách hàng | Quản trị Admin</title>
+</head>
+<body>
+    <main class="app-content">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb side">
+                <li class="breadcrumb-item active"><a href="#"><b>Danh sách khách hàng</b></a></li>
+            </ul>
+            <div id="clock"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="tile-body">
+                        <table class="table table-hover table-bordered js-copytextarea" cellpadding="0" cellspacing="0" border="0"
+                               id="sampleTable">
+                            <thead>
+                                <tr>
+                                    <th width="15">ID </th>
+                                    <th style="text-align:center" width="200">Tên tài khoản</th>
+                                    <th style="text-align:center" width="280">Địa chỉ</th>
+                                    <th style="text-align:center" width="150">Email</th>
+                                    <th style="text-align:center" s>SĐT</th>
+                                    <th style="text-align:center" width="70">Chức năng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @using (var model = new StoreDbContext())
+                                {
+                                    var list = (from s in model.Users
+                                                select new
+                                                {
+                                                    s.Id,
+                                                    s.Username,
+                                                    s.Address,
+                                                    s.Email,
+                                                    s.PhoneNumber,
+                                                }).ToList();
+                                    {
+                                        foreach (var item in list)
+                                        {
+                                            <tr>
+                                                <td>@item.Id</td>
+                                                <td>@item.Username</td>
+                                                <td>@item.Address</td>
+                                                <td>@item.Email</td>
+                                                <td>@item.PhoneNumber</td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-sm edit" href="~/Admin/Customer/DeleteCustomer?id=@item.Id" title="Xoa">
+                                                        <i class="fas fa-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="~/Areas/Admin/content/doc/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/popper.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="src/jquery.table2excel.js"></script>
+    <script src="~/Areas/Admin/content/js/main.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/plugins/pace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <script>
+        oTable = $('#sampleTable').dataTable();
+        $('#all').click(function (e) {
+            $('#sampleTable tbody :checkbox').prop('checked', $(this).is(':checked'));
+            e.stopImmediatePropagation();
+        });
+        //In dữ liệu
+        //Modal
+        $("#show-emp").on("click", function () {
+            $("#ModalUP").modal({ backdrop: false, keyboard: false })
+        });
+    </script>
+</body>
+

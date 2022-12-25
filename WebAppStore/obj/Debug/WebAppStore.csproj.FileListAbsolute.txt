@@ -1,0 +1,430 @@
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\WebAppStore.dll.config
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\WebAppStore.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\WebAppStore.pdb
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csc.exe
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csc.exe.config
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csc.rsp
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csi.exe
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csi.exe.config
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\csi.rsp
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.AppContext.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Console.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\vbc.exe
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\vbc.exe.config
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\vbc.rsp
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Antlr3.Runtime.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Newtonsoft.Json.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Helpers.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Mvc.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Optimization.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Razor.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\WebGrease.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Helpers.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Mvc.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Optimization.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.Razor.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Newtonsoft.Json.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Antlr3.Runtime.pdb
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.AssemblyReference.cache
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CoreCompileInputs.cache
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CopyComplete
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\obj\Debug\WebAppStore.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\obj\Debug\WebAppStore.pdb
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\EntityFramework.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\EntityFramework.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Models.dll
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Models.pdb
+C:\Users\Dell service\source\repos\WebAppStore\WebAppStore\bin\Models.dll.config
+E:\WebAppStore\WebAppStore\bin\WebAppStore.dll.config
+E:\WebAppStore\WebAppStore\bin\WebAppStore.dll
+E:\WebAppStore\WebAppStore\bin\WebAppStore.pdb
+E:\WebAppStore\WebAppStore\bin\roslyn\csc.exe
+E:\WebAppStore\WebAppStore\bin\roslyn\csc.exe.config
+E:\WebAppStore\WebAppStore\bin\roslyn\csc.rsp
+E:\WebAppStore\WebAppStore\bin\roslyn\csi.exe
+E:\WebAppStore\WebAppStore\bin\roslyn\csi.exe.config
+E:\WebAppStore\WebAppStore\bin\roslyn\csi.rsp
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Managed.Core.targets
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.AppContext.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Collections.Immutable.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Console.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Globalization.Calendars.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Net.Http.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Net.Sockets.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.ValueTuple.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XmlDocument.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\WebAppStore\WebAppStore\bin\roslyn\vbc.exe
+E:\WebAppStore\WebAppStore\bin\roslyn\vbc.exe.config
+E:\WebAppStore\WebAppStore\bin\roslyn\vbc.rsp
+E:\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe
+E:\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe.config
+E:\WebAppStore\WebAppStore\bin\Antlr3.Runtime.dll
+E:\WebAppStore\WebAppStore\bin\EntityFramework.dll
+E:\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.dll
+E:\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WebAppStore\WebAppStore\bin\Microsoft.Web.Infrastructure.dll
+E:\WebAppStore\WebAppStore\bin\Models.dll
+E:\WebAppStore\WebAppStore\bin\Newtonsoft.Json.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.Helpers.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.Mvc.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.Optimization.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.Razor.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.dll
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.dll
+E:\WebAppStore\WebAppStore\bin\WebGrease.dll
+E:\WebAppStore\WebAppStore\bin\Models.pdb
+E:\WebAppStore\WebAppStore\bin\Models.dll.config
+E:\WebAppStore\WebAppStore\bin\EntityFramework.xml
+E:\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.Helpers.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.Mvc.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.Optimization.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.Razor.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.xml
+E:\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.xml
+E:\WebAppStore\WebAppStore\bin\Newtonsoft.Json.xml
+E:\WebAppStore\WebAppStore\bin\Antlr3.Runtime.pdb
+E:\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.AssemblyReference.cache
+E:\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CoreCompileInputs.cache
+E:\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CopyComplete
+E:\WebAppStore\WebAppStore\obj\Debug\WebAppStore.dll
+E:\WebAppStore\WebAppStore\obj\Debug\WebAppStore.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.dll.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.exe
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.exe.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.rsp
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.exe
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.exe.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.rsp
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.AppContext.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Console.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Net.Http.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.exe
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.exe.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.rsp
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Antlr3.Runtime.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Models.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Helpers.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Mvc.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Optimization.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Razor.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\WebGrease.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Models.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Models.dll.config
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Helpers.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Mvc.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Optimization.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.Razor.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Antlr3.Runtime.pdb
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.dll
+C:\Users\ADMIN\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.pdb
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\WebAppStore.dll.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\WebAppStore.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\WebAppStore.pdb
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csc.exe
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csc.exe.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csc.rsp
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csi.exe
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csi.exe.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\csi.rsp
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.AppContext.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Collections.Immutable.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Console.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Globalization.Calendars.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Net.Http.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Net.Sockets.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.ValueTuple.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\vbc.exe
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\vbc.exe.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\vbc.rsp
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Antlr3.Runtime.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\EntityFramework.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Microsoft.Web.Infrastructure.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Models.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Newtonsoft.Json.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Helpers.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Mvc.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Optimization.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Razor.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\WebGrease.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Models.pdb
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Models.dll.config
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\EntityFramework.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Helpers.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Mvc.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Optimization.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.Razor.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Newtonsoft.Json.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Antlr3.Runtime.pdb
+E:\TUAN\Web\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TUAN\Web\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.AssemblyReference.cache
+E:\TUAN\Web\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CoreCompileInputs.cache
+E:\TUAN\Web\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CopyComplete
+E:\TUAN\Web\WebAppStore\WebAppStore\obj\Debug\WebAppStore.dll
+E:\TUAN\Web\WebAppStore\WebAppStore\obj\Debug\WebAppStore.pdb
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.dll.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\WebAppStore.pdb
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.exe
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.exe.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csc.rsp
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.exe
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.exe.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\csi.rsp
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.AppContext.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Console.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.exe
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.exe.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\vbc.rsp
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Antlr3.Runtime.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Models.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Newtonsoft.Json.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Helpers.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Mvc.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Optimization.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Razor.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\WebGrease.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Models.pdb
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Models.dll.config
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Helpers.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Mvc.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Optimization.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.Razor.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Newtonsoft.Json.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Antlr3.Runtime.pdb
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.AssemblyReference.cache
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CoreCompileInputs.cache
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.csproj.CopyComplete
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.dll
+C:\Users\Dell service\Desktop\WebAppStore\WebAppStore\obj\Debug\WebAppStore.pdb

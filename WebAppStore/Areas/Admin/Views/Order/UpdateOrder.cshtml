@@ -1,0 +1,106 @@
+﻿@using Models
+@{
+    ViewBag.Title = "UpdateOrder";
+    Layout = "~/Areas/Admin/Views/Shared/Layout_Admin.cshtml";
+}
+<head>
+    <title>Đơn hàng | Quản trị Admin</title>
+    <script>
+    </script>
+</head>
+<body class="app sidebar-mini rtl">
+    <main class="app-content">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Cập nhật thông tin đơn hàng</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <h3 class="tile-title">Thông tin sản phẩm</h3>
+                    <div class="tile-body">
+                        <div class="row element-button">
+                        </div>
+                        @*    <form class="row" action="/Admin/Product/UpdateProduct1" method="get">*@
+                        @using (Html.BeginForm("UpdateOrder1", "Odrer", FormMethod.Post, new { enctype = "multipart/form-data", id = "form1" }))
+                        {
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Mã đơn hàng </label>
+                            <input name="id" class="form-control" type="number" value="@Model.Id">
+                        </div>
+
+                        <div class="form-group  col-md-3">
+                            <label class="control-label">Tên khách hàng</label>
+                            <select name="orderid" class="form-control" id="exampleSelect1" value="@Model.Order_Id">
+                                @using (var con = new StoreDbContext())
+                                {
+                                    var od = (from s in con.Orders
+                                              join kh in con.Order_Detail on s.Id equals kh.Order_Id
+                                              select s).ToList();
+                                    foreach (var item in od)
+                                    {
+                                        <option value="@item.Id">@item.Fullname</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Tên sản phẩm</label>
+                            <input name="title" class="form-control" type="text" value="@Model.Title">
+                        </div>
+
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Số lượng</label>
+                            <input name="number" class="form-control" type="text" value="@Model.Number">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label class="control-label">Tổng tiền</label>
+                            <input name="totalmoney" class="form-control" type="text" value="@Model.TotalMoney">
+                        </div>
+
+                        @*   <div class="form-group  col-md-3">
+            <label class="control-label">Trạng thái</label>
+            <select name="orderid" class="form-control" id="exampleSelect1">
+                <option>0</option>
+                <option>1</option>
+            </select>
+        </div>*@
+
+                        <div class="form-group  col-md-3">
+                            <label class="control-label">Tên khách hàng</label>
+                            <select name="orderid" class="form-control" id="exampleSelect1" value="@Model.Order_Id">
+                                @using (var oder = new StoreDbContext())
+                                {
+                                    var od = (from s in oder.Orders
+                                              select s).ToList();
+                                    foreach (var item in od)
+                                    {
+                                        <option value="@item.Id">@item.Status></option>
+                                    }
+                                }
+                            </select>
+                        </div>
+
+                        <div>
+                            <button class="btn btn-save" type="submit">Lưu lại</button>
+                            <a class="btn btn-cancel" href="~/Admin/Order/Order">Hủy bỏ</a>
+                        </div>
+                    </div>
+                            @* </form>*@
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="~/Areas/Admin/content/doc/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/popper.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/bootstrap.min.js"></script>
+    <script src="~/Areas/Admin/content/js/main.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/plugins/pace.min.js"></script>
+    <script>
+    </script>
+</body>

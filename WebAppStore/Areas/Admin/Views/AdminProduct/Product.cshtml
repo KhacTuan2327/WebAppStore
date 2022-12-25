@@ -1,0 +1,133 @@
+﻿@using Models
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Areas/Admin/Views/Shared/Layout_Admin.cshtml";
+}
+
+<head>
+    <title>Sản phẩm | Quản trị Admin</title>
+</head>
+<body>
+    <main class="app-content">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb side">
+                <li class="breadcrumb-item active"><a href="#"><b>Danh sách sản phẩm</b></a></li>
+            </ul>
+            <div id="clock"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="tile-body">
+                        <div class="row element-button">
+                            <div class="col-sm-2">
+
+                                <a class="btn btn-add btn-sm" href="~/Admin/Product/AddProduct" title="Thêm">
+                                    <i class="fas fa-plus"></i>
+                                    Tạo mới sản phẩm
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-delete btn-sm nhap-tu-file" title="Nhập" onclick="myFunction(this)">
+                                    <i class="fas fa-file-upload"></i> Tải từ file
+                                </a>
+                            </div>
+
+
+                            <div class="col-sm-2">
+                                <a class="btn btn-excel btn-sm" href="" title="In"><i class="fas fa-file-excel"></i> Xuất Excel</a>
+                            </div>
+
+                            <div class="col-sm-2">
+                                <a class="btn btn-delete btn-sm"  title="Xóa" onclick="myFunction(this)">
+                                    <i class="fas fa-trash-alt"></i> Xóa tất cả
+                                </a>
+                            </div>
+                        </div>
+                        <table class="table table-hover table-bordered" id="sampleTable">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center" width="20">ID</th>
+                                    <th style="text-align:center" width="170">Tên sản phẩm</th>
+                                    <th style="text-align:center">Ảnh</th>
+                                    <th style="text-align:center">Loại SP</th>
+                                    <th style="text-align:center" width="50">Kích cỡ</th>
+                                    <th style="text-align:center">Màu sắc</th>
+                                    <th style="text-align:center">Giá tiền</th>
+                                    <th style="text-align:center" width="80">Số lượng</th>
+                                    <th style="text-align:center" width="220">Mô tả</th>
+                                    <th style="text-align:center" width="70">Tính năng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @using (var model = new StoreDbContext())
+                                {
+                                    var list = (from s in model.Products
+                                                join ct in model.Categories on s.Category_Id equals ct.Id
+                                                select new
+                                                {
+                                                    s.Id,
+                                                    s.Title,
+                                                    s.Photo,
+                                                    ct.Name,
+                                                    s.Size,
+                                                    s.Color,
+                                                    s.Price,
+                                                    s.Quantity,
+                                                    s.Description,
+                                                }).ToList();
+                                    foreach (var item in list)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.Title</td>
+                                            <td><img src="~/Content/images/Image/AllProduct/@item.Photo" alt="IMG" width="100"></td>
+                                            <td>@item.Name</td>
+                                            <td>@item.Size</td>
+                                            <td>@item.Color</td>
+                                            <td>@item.Price</td>
+                                            <td>@item.Quantity</td>
+                                            <td>@item.Description</td>
+                                            <td class="table-td-center">
+                                                <a class="btn btn-primary btn-sm edit" href="~/Admin/AdminProduct/UpdateProduct?id=@item.Id" title="Sửa">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a class="btn btn-primary btn-sm trash" href="~/Admin/AdminProduct/DeleteProduct?id=@item.Id" title="Xóa">
+                                                    <i class="fas fa-trash"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="~/Areas/Admin/content/doc/js/jquery-3.2.1.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/popper.min.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="src/jquery.table2excel.js"></script>
+    <script src="~/Areas/Admin/content/js/main.js"></script>
+    <script src="~/Areas/Admin/content/doc/js/plugins/pace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/content/doc/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <script>
+        oTable = $('#sampleTable').dataTable();
+        $('#all').click(function (e) {
+            $('#sampleTable tbody :checkbox').prop('checked', $(this).is(':checked'));
+            e.stopImmediatePropagation();
+        });
+        //In dữ liệu
+        //Modal
+        $("#show-emp").on("click", function () {
+            $("#ModalUP").modal({ backdrop: false, keyboard: false })
+        });
+    </script>
+</body>
+
